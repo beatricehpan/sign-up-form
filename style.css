@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  display: flex;
+  min-height: 100vh;
+}
+.sidebar {
+  width: 35%;
+  background: url("images/fern.jpg") center / cover;
+}
+main {
+  flex: 1;
+  background: #f9fafb;
+}
+
+@font-face {
+  font-family: "Norse";
+  src: url("fonts/norse-bold.otf");
+}
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: 160px;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 16px 0;
+}
+.logo img {
+  width: 90px;
+}
+.logo h1 {
+  font-family: "Norse", sans-serif;
+  font-size: 5rem;
+  color: white;
+  margin: 0;
+}
+.credit {
+  text-align: center;
+  color: white;
+  font-size: 0.75rem;
+}
+.credit a {
+  color: white;
+}
